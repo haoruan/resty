@@ -7,8 +7,8 @@ package resty
 
 import (
 	"net"
-	"net/http"
-	"net/http/cookiejar"
+	"github.com/saucesteals/fhttp"
+	"github.com/saucesteals/fhttp/cookiejar"
 
 	"golang.org/x/net/publicsuffix"
 )

@@ -10,7 +10,7 @@ import (
 	"io"
 	"log"
 	"mime/multipart"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/textproto"
 	"os"
 	"path/filepath"

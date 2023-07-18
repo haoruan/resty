@@ -8,7 +8,7 @@ package resty
 
 import (
 	"net"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"runtime"
 	"time"
 )

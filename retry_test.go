@@ -8,7 +8,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"reflect"
 	"strconv"
 	"strings"

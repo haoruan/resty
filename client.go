@@ -7,7 +7,7 @@ package resty
 import (
 	"bytes"
 	"compress/gzip"
-	"crypto/tls"
+    "github.com/refraction-networking/utls"
 	"crypto/x509"
 	"encoding/json"
 	"encoding/xml"
@@ -16,7 +16,7 @@ import (
 	"io"
 	"io/ioutil"
 	"math"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/url"
 	"reflect"
 	"regexp"

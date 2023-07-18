@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"os"
 	"strconv"
 	"time"
 
 	"golang.org/x/net/proxy"
 
-	"github.com/go-resty/resty/v2"
+	"github.com/haoruan/resty/v2"
 )
 
 type DropboxError struct {

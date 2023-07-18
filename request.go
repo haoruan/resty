@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/url"
 	"reflect"
 	"strings"
