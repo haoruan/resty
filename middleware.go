@@ -11,7 +11,7 @@ import (
 	"io"
 	"io/ioutil"
 	"mime/multipart"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/url"
 	"os"
 	"path/filepath"

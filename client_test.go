@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/url"
 	"path/filepath"
 	"reflect"

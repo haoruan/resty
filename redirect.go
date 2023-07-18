@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 	"net"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"strings"
 )
 

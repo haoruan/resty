@@ -16,7 +16,7 @@ import (
 	"io"
 	"io/ioutil"
 	"math"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/url"
 	"reflect"
 	"regexp"

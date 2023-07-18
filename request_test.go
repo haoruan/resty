@@ -12,7 +12,7 @@ import (
 	"io"
 	"io/ioutil"
 	"net"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/url"
 	"os"
 	"path/filepath"

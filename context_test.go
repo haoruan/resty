@@ -8,7 +8,7 @@ package resty
 
 import (
 	"context"
-	"net/http"
+	"github.com/saucesteals/fhttp"
 	"net/url"
 	"strings"
 	"sync/atomic"
